@@ -1,0 +1,174 @@
+
+.montserrat-font {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 100;
+	font-style: normal;
+  }
+
+body{
+	background-color: skyblue;
+	
+
+}
+@keyframes rotate{
+	0%{
+		transform: rotateZ(0deg);
+	}
+	100%{
+		transform: rotateZ(360deg);
+	}
+}
+.width{
+	width: 400px;
+
+}
+
+.city{
+	font-weight: bold;
+	font-size: 40px;
+	margin-left: 30px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	font-family: "Montserrat", sans-serif;
+}
+.meteo{
+	display: none;
+	border: 3px solid black;
+	border-radius: 10px;
+	margin: 20px 0;
+
+}
+.div{
+	width: 400px;
+
+}
+.sunpic{
+	margin-top: 20px;
+	width: 90px;
+	margin-left: 160px;
+	
+	
+}
+.degree{
+	display: inline-block;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-bottom: 0;
+	font-family: "Montserrat", sans-serif;
+
+
+
+}
+.feels{
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 30px;
+	font-family: "Montserrat", sans-serif;
+
+
+}
+
+.byhours{
+	border: solid black 3px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	display: none;
+	overflow: auto;
+	scrollbar-width: none;
+
+}
+.hourly{
+	display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+	margin-right: 20px;
+
+
+}
+
+/*byhours degree */
+
+.margin5{
+	margin-left: 10px;
+
+}
+
+.sunhour{
+	width: 25px;
+	margin-left: 6px;
+}
+.bydays{
+	display: none;
+    flex-direction: column;
+    border: solid black 3px;
+   	border-radius: 10px;
+
+}
+.daybyday{
+	display: flex;
+
+}
+.day{
+
+	width: 80px;
+	padding-left: 20px;
+}
+
+/* width bach ki kant 0 ki 100 ijiw flwest omay def3osh lokhrin*/
+
+.rainpr{
+	width: 60px;
+	font-size: 14px;	
+	text-align: center;
+
+}
+
+.sundaily{
+	height: 25px;
+	margin-left: 60px;
+	margin-top: 5px;
+
+}
+.max{
+	margin-left: 60px;
+
+}
+.min{
+	margin-left: 30px;
+
+
+}
+.daybyday:nth-child(1){
+	margin-top: 8px;
+}
+.loading{
+	text-align: center;
+	font-size: 70px;
+	font-weight: bold;
+}
+.sunrisesunset{
+	border: 3px solid black;
+	border-radius: 10px;
+	display: none;
+	height: 230px;
+	margin: 20px 0;
+
+
+}
+.sun{
+	height: 150px;
+	margin: 20px 0 0 35px;
+}
+
+.wakeup{
+	display: flex;
+	justify-content: center;
+	margin-left: 30px;
+	font-weight: bold;
+	font-size: 20px;
+
+}
